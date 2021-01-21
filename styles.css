@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    height: 100vh;
+}
+
+#c1 {
+    flex-grow: 0;
+    width: 25%;
+    background-color: #aaa;
+    display: flex;
+    flex-direction: column;
+}
+
+#c2 {
+    flex-grow: 1;
+    background-color: #aaa;
+    border-left: #ddd 16px solid;
+    border-right: #ddd 16px solid;
+    overflow: auto;
+}
+
+#c3 {
+    flex-grow: 0;
+    width: 25%;
+    background-color: #aaa;
+    overflow: auto;
+}
+
+#header {
+    flex-grow: 0;
+}
+
+#tree {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+ul {
+    white-space: nowrap;
+}
+
+/* .props-area::-webkit-scrollbar {
+    width: 14px;
+}
+
+.props-area::-webkit-scrollbar-thumb {
+    background-clip: content-box;
+    border: 4px solid transparent;
+    border-radius: 7px;
+    box-shadow: inset 0 0 0 10px;
+
+    &:hover {
+        border: 4px solid #666666FF;
+    }
+}
+
+.props-area::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+.props-area {
+    color: #00000000;
+    transition: color 0.3s;
+
+    &:hover {
+        color: #666666FF;
+    }
+} */
