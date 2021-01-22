@@ -1,49 +1,49 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .row {
-    display: flex;
+  display: flex;
 }
 
 .column {
-    height: 100vh;
+  height: 100vh;
 }
 
 #c1 {
-    flex-grow: 0;
-    width: 25%;
-    background-color: #aaa;
-    display: flex;
-    flex-direction: column;
+  flex-grow: 0;
+  width: 25%;
+  background-color: #aaa;
+  display: flex;
+  flex-direction: column;
 }
 
 #c2 {
-    flex-grow: 1;
-    background-color: #aaa;
-    border-left: #ddd 16px solid;
-    border-right: #ddd 16px solid;
-    overflow: auto;
+  flex-grow: 1;
+  background-color: #aaa;
+  border-left: #ddd 16px solid;
+  border-right: #ddd 16px solid;
+  overflow: auto;
 }
 
 #c3 {
-    flex-grow: 0;
-    width: 25%;
-    background-color: #aaa;
-    overflow: auto;
+  flex-grow: 0;
+  width: 25%;
+  background-color: #aaa;
+  overflow: auto;
 }
 
 #header {
-    flex-grow: 0;
+  flex-grow: 0;
 }
 
 #tree {
-    flex-grow: 1;
-    overflow: auto;
+  flex-grow: 1;
+  overflow: auto;
 }
 
 ul {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 /* .props-area::-webkit-scrollbar {
