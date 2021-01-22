@@ -4,6 +4,7 @@ name: Super-Linter
 on:
   schedule:
     - cron: 00 * * * *
+  push:
 
 jobs:
   # Set the job key. The key is displayed as the job name
